@@ -1,0 +1,51 @@
+version: "3.1"
+
+rules:
+
+- rule: corona_intro
+  steps:
+  - intent: corona
+  - action: action_detect_language 
+  - action: utter_corona
+
+- rule: corona_precautions
+  steps:
+  - intent: precautions
+  - action: action_detect_language 
+  - action: utter_precautions
+
+- rule: corona_spread
+  steps:
+  - intent: spread
+  - action: action_detect_language 
+  - action: utter_spread
+
+- rule: corona_symptoms
+  steps:
+  - intent: symptoms
+  - action: action_detect_language 
+  - action: utter_symptoms
+
+- rule: corona_treatment
+  steps:
+  - intent: treatments
+  - action: action_detect_language
+  - action: utter_treatments
+
+- rule: corona_govt_reg
+  steps:
+  - intent: government_reg
+  - action: action_detect_language 
+  - action: utter_government_reg
+
+- rule: corona_hospital_visit
+  steps:
+  - intent: hospital_visit
+  - action: action_detect_language 
+  - action: utter_hospital_visit
+
+- rule: corona_pandamic
+  steps:
+  - intent: pandamic
+  - action: action_detect_language 
+  - action: utter_pandamic

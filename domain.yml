@@ -1,0 +1,297 @@
+version: "3.1"
+
+intents:
+  - corona
+  - spread
+  - symptoms
+  - treatments
+  - government_reg
+  - hospital_visit
+  - precautions
+  - pandamic
+  - handle_insult
+
+responses:
+  utter_corona:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "Coronaviruses are a large family of viruses that can cause illness in animals and humans. In humans, they can lead to respiratory infections ranging from the common cold to more severe diseases such as COVID-19. COVID-19 is caused by the novel coronavirus SARS-CoV-2 and was first identified in late 2019 in Wuhan, China. It quickly spread to become a global pandemic, affecting millions of people worldwide. It's crucial to follow public health guidelines to protect yourself and others from this virus."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "Coronaviruses are a large family of viruses that can cause illness in animals and humans. In humans, they can lead to respiratory infections ranging from the common cold to more severe diseases such as COVID-19. COVID-19 is caused by the novel coronavirus SARS-CoV-2 and was first identified in late 2019 in Wuhan, China. It quickly spread to become a global pandemic, affecting millions of people worldwide. It's crucial to follow public health guidelines to protect yourself and others from this virus."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "कोरोनावायरस एक बड़ा वायरस परिवार है जो जानवरों और मानवों में बीमारी का कारण बन सकता है। मानवों में, इन्हें सामान्य सर्दी से लेकर कोविड-19 जैसी गंभीर बीमारियों तक की सांस की इन्फेक्शन पैदा कर सकता है। कोविड-19 को नवीन कोरोनावायरस SARS-CoV-2 के कारण होता है और इसे चीन के वूहान में 2019 के अंत में पहचाना गया था। यह तेजी से फैलकर एक वैश्विक पैंडेमिक बन गया, जिससे मिलियनों लोग विश्वभर में प्रभावित हुए। इस वायरस से खुद को और दूसरों को बचाने के लिए सार्वजनिक स्वास्थ्य दिशा-निर्देशों का पालन करना अत्यंत महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "कोरोनावायरस एक बड़ा वायरस परिवार है जो जानवरों और मानवों में बीमारी का कारण बन सकता है। मानवों में, इन्हें सामान्य सर्दी से लेकर कोविड-19 जैसी गंभीर बीमारियों तक की सांस की इन्फेक्शन पैदा कर सकता है। कोविड-19 को नवीन कोरोनावायरस SARS-CoV-2 के कारण होता है और इसे चीन के वूहान में 2019 के अंत में पहचाना गया था। यह तेजी से फैलकर एक वैश्विक पैंडेमिक बन गया, जिससे मिलियनों लोग विश्वभर में प्रभावित हुए। इस वायरस से खुद को और दूसरों को बचाने के लिए सार्वजनिक स्वास्थ्य दिशा-निर्देशों का पालन करना अत्यंत महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "कोरोनावायरस एक बड़ा वायरस परिवार है जो जानवरों और मानवों में बीमारी का कारण बन सकता है। मानवों में, इन्हें सामान्य सर्दी से लेकर कोविड-19 जैसी गंभीर बीमारियों तक की सांस की इन्फेक्शन पैदा कर सकता है। कोविड-19 को नवीन कोरोनावायरस SARS-CoV-2 के कारण होता है और इसे चीन के वूहान में 2019 के अंत में पहचाना गया था। यह तेजी से फैलकर एक वैश्विक पैंडेमिक बन गया, जिससे मिलियनों लोग विश्वभर में प्रभावित हुए। इस वायरस से खुद को और दूसरों को बचाने के लिए सार्वजनिक स्वास्थ्य दिशा-निर्देशों का पालन करना अत्यंत महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "கொரோனா வைரஸ்கள் விலங்குகள் மற்றும் மனிதர்களுக்கு நோயை ஏற்படுத்தக்கூடிய வைரஸ்களின் ஒரு பெரிய குடும்பமாகும். மனிதர்களில், அவை ஜலதோஷம் முதல் COVID-19 போன்ற கடுமையான நோய்கள் வரை சுவாச நோய்த்தொற்றுகளுக்கு வழிவகுக்கும். COVID-19 என்பது கொரோனா வைரஸ் நாவலால் ஏற்படுகிறது. SARS-CoV-2 மற்றும் முதன்முதலில் 2019 இன் பிற்பகுதியில் சீனாவின் வுஹானில் கண்டறியப்பட்டது. இது விரைவில் உலகளாவிய தொற்றுநோயாக பரவி, உலகம் முழுவதும் மில்லியன் கணக்கான மக்களை பாதிக்கிறது. இந்த வைரஸிலிருந்து உங்களையும் மற்றவர்களையும் பாதுகாக்க பொது சுகாதார வழிகாட்டுதல்களைப் பின்பற்றுவது முக்கியம்."
+
+  utter_precautions:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "Wash your hands frequently with soap and water for at least 20 seconds, or use hand sanitizer with at least 60% alcohol. Wear a mask in public settings, especially when social distancing is challenging. Practice physical distancing by maintaining at least 6 feet (2 meters) of distance from others. Avoid large gatherings and crowded places. Stay home if you feel unwell or have symptoms of COVID-19."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "Wash your hands frequently with soap and water for at least 20 seconds, or use hand sanitizer with at least 60% alcohol. Wear a mask in public settings, especially when social distancing is challenging. Practice physical distancing by maintaining at least 6 feet (2 meters) of distance from others. Avoid large gatherings and crowded places. Stay home if you feel unwell or have symptoms of COVID-19."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "अपने हाथों को साबुन और पानी से कम से कम 20 सेकंड तक धोएं, या कम से कम 60% अल्कोहल वाले हैंड सैनिटाइज़र का उपयोग करें। सार्वजनिक स्थानों पर मास्क पहनें, खासकर जब सामाजिक दूरी बनाए रखना मुश्किल हो। कम से कम 6 फीट (2 मीटर) की दूरी बनाए रखने के माध्यम से शारीरिक दूरी का पालन करें। बड़े समूह और भीड़ भरी जगहों से बचें। यदि आप बीमार लगते हैं या कोविड-19 के लक्षण होते हैं, तो घर पर रहें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "अपने हाथों को साबुन और पानी से कम से कम 20 सेकंड तक धोएं, या कम से कम 60% अल्कोहल वाले हैंड सैनिटाइज़र का उपयोग करें। सार्वजनिक स्थानों पर मास्क पहनें, खासकर जब सामाजिक दूरी बनाए रखना मुश्किल हो। कम से कम 6 फीट (2 मीटर) की दूरी बनाए रखने के माध्यम से शारीरिक दूरी का पालन करें। बड़े समूह और भीड़ भरी जगहों से बचें। यदि आप बीमार लगते हैं या कोविड-19 के लक्षण होते हैं, तो घर पर रहें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "अपने हाथों को साबुन और पानी से कम से कम 20 सेकंड तक धोएं, या कम से कम 60% अल्कोहल वाले हैंड सैनिटाइज़र का उपयोग करें। सार्वजनिक स्थानों पर मास्क पहनें, खासकर जब सामाजिक दूरी बनाए रखना मुश्किल हो। कम से कम 6 फीट (2 मीटर) की दूरी बनाए रखने के माध्यम से शारीरिक दूरी का पालन करें। बड़े समूह और भीड़ भरी जगहों से बचें। यदि आप बीमार लगते हैं या कोविड-19 के लक्षण होते हैं, तो घर पर रहें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "குறைந்தது 20 வினாடிகளுக்கு சோப்பு மற்றும் தண்ணீருடன் உங்கள் கைகளை அடிக்கடி கழுவவும் அல்லது குறைந்தது 60% ஆல்கஹால் கொண்ட கை சுத்திகரிப்பாளரைப் பயன்படுத்தவும். பொது அமைப்புகளில் முகமூடியை அணியுங்கள், குறிப்பாக சமூக விலகல் சவாலானதாக இருக்கும்போது. குறைந்தபட்சம் 6 அடிகளை பராமரிப்பதன் மூலம் உடல் இடைவெளியைப் பயிற்சி செய்யுங்கள் ( மற்றவர்களிடமிருந்து 2 மீட்டர்) தூரம். பெரிய கூட்டங்கள் மற்றும் நெரிசலான இடங்களைத் தவிர்க்கவும். உங்களுக்கு உடல்நிலை சரியில்லாமல் இருந்தால் அல்லது கோவிட்-19 அறிகுறிகள் இருந்தால் வீட்டிலேயே இருங்கள்."
+  
+  
+  utter_spread:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "The coronavirus primarily spreads through respiratory droplets when an infected person coughs, sneezes, talks, or breathes. It can also spread by touching surfaces or objects contaminated with the virus and then touching your face, especially your mouth, nose, or eyes."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "The coronavirus primarily spreads through respiratory droplets when an infected person coughs, sneezes, talks, or breathes. It can also spread by touching surfaces or objects contaminated with the virus and then touching your face, especially your mouth, nose, or eyes."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "कोरोनावायरस मुख्य रूप से जब एक संक्रमित व्यक्ति खांसता, छींकता, बात करता या सांस लेता है, तब श्वसन ड्राप्स के माध्यम से फैलता है। यह वायरस सतहों या वस्त्र जैसी चीज़ों को छूने या वायरस से संदिग्ध वस्त्र या वस्तुओं को छूने के माध्यम से भी फैल सकता है और फिर अपने मुँह, खासकर आपके मुँह, नाक या आंखों को छूने के माध्यम से फैलता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "कोरोनावायरस मुख्य रूप से जब एक संक्रमित व्यक्ति खांसता, छींकता, बात करता या सांस लेता है, तब श्वसन ड्राप्स के माध्यम से फैलता है। यह वायरस सतहों या वस्त्र जैसी चीज़ों को छूने या वायरस से संदिग्ध वस्त्र या वस्तुओं को छूने के माध्यम से भी फैल सकता है और फिर अपने मुँह, खासकर आपके मुँह, नाक या आंखों को छूने के माध्यम से फैलता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "कोरोनावायरस मुख्य रूप से जब एक संक्रमित व्यक्ति खांसता, छींकता, बात करता या सांस लेता है, तब श्वसन ड्राप्स के माध्यम से फैलता है। यह वायरस सतहों या वस्त्र जैसी चीज़ों को छूने या वायरस से संदिग्ध वस्त्र या वस्तुओं को छूने के माध्यम से भी फैल सकता है और फिर अपने मुँह, खासकर आपके मुँह, नाक या आंखों को छूने के माध्यम से फैलता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "பாதிக்கப்பட்ட நபர் இருமல், தும்மல், பேசும்போது அல்லது சுவாசிக்கும்போது, ​​​​கொரோனா வைரஸ் முதன்மையாக சுவாசத் துளிகள் மூலம் பரவுகிறது. இது வைரஸால் மாசுபட்ட மேற்பரப்புகள் அல்லது பொருட்களைத் தொடுவதன் மூலமும், பின்னர் உங்கள் முகத்தை, குறிப்பாக உங்கள் வாய், மூக்கு அல்லது கண்களைத் தொடுவதன் மூலமும் பரவுகிறது."
+
+  utter_symptoms:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "Common symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, body aches, loss of taste or smell, sore throat, and headache. In severe cases, it can lead to pneumonia, acute respiratory distress syndrome (ARDS), and organ failure."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "Common symptoms of COVID-19 include fever, cough, shortness of breath, fatigue, body aches, loss of taste or smell, sore throat, and headache. In severe cases, it can lead to pneumonia, acute respiratory distress syndrome (ARDS), and organ failure."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "कोविड-19 के सामान्य लक्षण में बुखार, खांसी, सांस की कमी, थकान, शरीर में दर्द, स्वाद या गंध का नष्ट होना, गले में खराश और सिरदर्द शामिल होते हैं। गंभीर मामलों में, यह न्यूमोनिया, तीव्र श्वसन तंत्र की बीमारी (एआरडीएस) और अंगों की विफलता जैसे रोगों का कारण बन सकता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "कोविड-19 के सामान्य लक्षण में बुखार, खांसी, सांस की कमी, थकान, शरीर में दर्द, स्वाद या गंध का नष्ट होना, गले में खराश और सिरदर्द शामिल होते हैं। गंभीर मामलों में, यह न्यूमोनिया, तीव्र श्वसन तंत्र की बीमारी (एआरडीएस) और अंगों की विफलता जैसे रोगों का कारण बन सकता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "कोविड-19 के सामान्य लक्षण में बुखार, खांसी, सांस की कमी, थकान, शरीर में दर्द, स्वाद या गंध का नष्ट होना, गले में खराश और सिरदर्द शामिल होते हैं। गंभीर मामलों में, यह न्यूमोनिया, तीव्र श्वसन तंत्र की बीमारी (एआरडीएस) और अंगों की विफलता जैसे रोगों का कारण बन सकता है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "COVID-19 இன் பொதுவான அறிகுறிகளில் காய்ச்சல், இருமல், மூச்சுத் திணறல், சோர்வு, உடல் வலிகள், சுவை அல்லது வாசனை இழப்பு, தொண்டை புண் மற்றும் தலைவலி ஆகியவை அடங்கும். கடுமையான சந்தர்ப்பங்களில், இது நிமோனியா, கடுமையான சுவாசக் கோளாறு நோய்க்குறி (ARDS) ஆகியவற்றிற்கு வழிவகுக்கும். , மற்றும் உறுப்பு செயலிழப்பு."
+
+  utter_treatments:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "The treatment for COVID-19 varies depending on the severity of the symptoms. Mild cases can usually be managed with rest, fluids, and over-the-counter medications to relieve symptoms like fever and cough. For severe cases, medical intervention and hospitalization may be necessary. Antiviral drugs and other medications are used in some cases, but there is no specific cure for the virus. It's essential to follow the advice of healthcare professionals if you or someone you know is diagnosed with COVID-19."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "The treatment for COVID-19 varies depending on the severity of the symptoms. Mild cases can usually be managed with rest, fluids, and over-the-counter medications to relieve symptoms like fever and cough. For severe cases, medical intervention and hospitalization may be necessary. Antiviral drugs and other medications are used in some cases, but there is no specific cure for the virus. It's essential to follow the advice of healthcare professionals if you or someone you know is diagnosed with COVID-19."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "कोविड-19 के इलाज में लक्षणों की गंभीरता पर निर्भर करता है। सामान्य मामलों में, आराम, तरल पदार्थों का सेवन और बुखार और खांसी जैसे लक्षणों को राहत देने वाली बिक्री के ऊपर दवाएं लेने से आसानी से संभावित है। गंभीर मामलों में, चिकित्सा प्रक्रिया और अस्पतालीकरण आवश्यक हो सकता है। कुछ मामलों में, एंटीवायरल दवाएं और अन्य दवाओं का उपयोग किया जाता है, लेकिन वायरस के लिए विशेष उपचार नहीं है। यदि आप या आपके पास कोविड-19 के नामकरण किया जाता है, तो चिकित्सा व्यवसायियों के सलाह का पालन करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "कोविड-19 के इलाज में लक्षणों की गंभीरता पर निर्भर करता है। सामान्य मामलों में, आराम, तरल पदार्थों का सेवन और बुखार और खांसी जैसे लक्षणों को राहत देने वाली बिक्री के ऊपर दवाएं लेने से आसानी से संभावित है। गंभीर मामलों में, चिकित्सा प्रक्रिया और अस्पतालीकरण आवश्यक हो सकता है। कुछ मामलों में, एंटीवायरल दवाएं और अन्य दवाओं का उपयोग किया जाता है, लेकिन वायरस के लिए विशेष उपचार नहीं है। यदि आप या आपके पास कोविड-19 के नामकरण किया जाता है, तो चिकित्सा व्यवसायियों के सलाह का पालन करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "कोविड-19 के इलाज में लक्षणों की गंभीरता पर निर्भर करता है। सामान्य मामलों में, आराम, तरल पदार्थों का सेवन और बुखार और खांसी जैसे लक्षणों को राहत देने वाली बिक्री के ऊपर दवाएं लेने से आसानी से संभावित है। गंभीर मामलों में, चिकित्सा प्रक्रिया और अस्पतालीकरण आवश्यक हो सकता है। कुछ मामलों में, एंटीवायरल दवाएं और अन्य दवाओं का उपयोग किया जाता है, लेकिन वायरस के लिए विशेष उपचार नहीं है। यदि आप या आपके पास कोविड-19 के नामकरण किया जाता है, तो चिकित्सा व्यवसायियों के सलाह का पालन करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "COVID-19 க்கான சிகிச்சையானது அறிகுறிகளின் தீவிரத்தைப் பொறுத்து மாறுபடும். காய்ச்சல் மற்றும் இருமல் போன்ற அறிகுறிகளைப் போக்க ஓய்வு, திரவங்கள் மற்றும் மருந்தகங்களில் கிடைக்கும் மருந்துகளின் மூலம் லேசான நிகழ்வுகளை நிர்வகிக்கலாம். கடுமையான நிகழ்வுகளுக்கு, மருத்துவத் தலையீடு மற்றும் மருத்துவமனையில் அனுமதிக்கப்பட வேண்டும். சில சந்தர்ப்பங்களில் ஆன்டிவைரல் மருந்துகள் மற்றும் பிற மருந்துகள் பயன்படுத்தப்படுகின்றன, ஆனால் வைரஸுக்கு குறிப்பிட்ட சிகிச்சை எதுவும் இல்லை. உங்களுக்கோ அல்லது உங்களுக்குத் தெரிந்தவருக்கோ கோவிட்-19 இருப்பது கண்டறியப்பட்டால், சுகாதார நிபுணர்களின் ஆலோசனையைப் பின்பற்றுவது அவசியம்."
+
+  utter_government_reg:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "The requirements for government registration and reporting of COVID-19 cases may vary depending on your location and the local regulations. In some places, it might be mandatory to report positive cases to the government health authorities. It's essential to check the guidelines provided by your local health department or government website for specific instructions on registration and reporting of COVID-19 cases."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "The requirements for government registration and reporting of COVID-19 cases may vary depending on your location and the local regulations. In some places, it might be mandatory to report positive cases to the government health authorities. It's essential to check the guidelines provided by your local health department or government website for specific instructions on registration and reporting of COVID-19 cases."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "कोविड-19 मामलों के सरकारी पंजीकरण और सूचना देने के लिए आवश्यकताएँ आपके स्थान और स्थानीय नियमों पर निर्भर कर सकती हैं। कुछ जगहों पर, सकारात्मक मामलों को सरकारी स्वास्थ्य अधिकारियों को सूचित करना अनिवार्य हो सकता है। सरकारी पंजीकरण और कोविड-19 मामलों की रिपोर्टिंग के बारे में विशेष निर्देशों के लिए अपने स्थानीय स्वास्थ्य विभाग या सरकारी वेबसाइट पर प्रदान किए गए निर्देशों की जांच करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "कोविड-19 मामलों के सरकारी पंजीकरण और सूचना देने के लिए आवश्यकताएँ आपके स्थान और स्थानीय नियमों पर निर्भर कर सकती हैं। कुछ जगहों पर, सकारात्मक मामलों को सरकारी स्वास्थ्य अधिकारियों को सूचित करना अनिवार्य हो सकता है। सरकारी पंजीकरण और कोविड-19 मामलों की रिपोर्टिंग के बारे में विशेष निर्देशों के लिए अपने स्थानीय स्वास्थ्य विभाग या सरकारी वेबसाइट पर प्रदान किए गए निर्देशों की जांच करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "कोविड-19 मामलों के सरकारी पंजीकरण और सूचना देने के लिए आवश्यकताएँ आपके स्थान और स्थानीय नियमों पर निर्भर कर सकती हैं। कुछ जगहों पर, सकारात्मक मामलों को सरकारी स्वास्थ्य अधिकारियों को सूचित करना अनिवार्य हो सकता है। सरकारी पंजीकरण और कोविड-19 मामलों की रिपोर्टिंग के बारे में विशेष निर्देशों के लिए अपने स्थानीय स्वास्थ्य विभाग या सरकारी वेबसाइट पर प्रदान किए गए निर्देशों की जांच करना महत्वपूर्ण है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "உங்கள் இருப்பிடம் மற்றும் உள்ளூர் விதிமுறைகளைப் பொறுத்து அரசாங்கப் பதிவு மற்றும் கோவிட்-19 வழக்குகளைப் புகாரளிப்பதற்கான தேவைகள் மாறுபடலாம். சில இடங்களில், அரசு சுகாதார அதிகாரிகளிடம் நேர்மறையான வழக்குகளைப் புகாரளிப்பது கட்டாயமாக இருக்கலாம். வழங்கிய வழிகாட்டுதல்களைச் சரிபார்க்க வேண்டியது அவசியம். COVID-19 வழக்குகளைப் பதிவுசெய்தல் மற்றும் புகாரளிப்பது குறித்த குறிப்பிட்ட வழிமுறைகளுக்கு உங்கள் உள்ளூர் சுகாதாரத் துறை அல்லது அரசாங்க இணையதளம்." 
+  utter_hospital_visit:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "If you suspect you have COVID-19 or experience severe symptoms, it's crucial to seek medical attention promptly. Emergency warning signs that require immediate medical attention include difficulty breathing, persistent chest pain or pressure, confusion, bluish lips or face, and inability to wake or stay awake. If you experience any of these symptoms or have underlying health conditions that put you at higher risk, do not hesitate to go to the nearest hospital or call for emergency medical services."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "If you suspect you have COVID-19 or experience severe symptoms, it's crucial to seek medical attention promptly. Emergency warning signs that require immediate medical attention include difficulty breathing, persistent chest pain or pressure, confusion, bluish lips or face, and inability to wake or stay awake. If you experience any of these symptoms or have underlying health conditions that put you at higher risk, do not hesitate to go to the nearest hospital or call for emergency medical services."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "यदि आपको लगता है कि आपको कोविड-19 हो सकता है या आपके पास गंभीर लक्षण हैं, तो तुरंत चिकित्सा सहायता की तलाश करना अत्यंत महत्वपूर्ण है। तुरंत चिकित्सा सहायता की आवश्यकता होने वाले आपत्ति चेतावनी संकेतों में शामिल हैं: सांस लेने में कठिनाई, निरंतर सीने में दर्द या दबाव, भ्रम, नीली होंठ या चेहरा, और जागने या जागे रहने की असमर्थता। यदि आपको इन लक्षणों का सामना करना पड़ता है या यदि आपके पास उच्चतर जोखिम के लिए आपको इंतजार नहीं करना चाहिए, तो निकटतम अस्पताल जाने का कोई संकोच न करें और तुरंत इमरजेंसी मेडिकल सेवाओं को कॉल करें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "यदि आपको लगता है कि आपको कोविड-19 हो सकता है या आपके पास गंभीर लक्षण हैं, तो तुरंत चिकित्सा सहायता की तलाश करना अत्यंत महत्वपूर्ण है। तुरंत चिकित्सा सहायता की आवश्यकता होने वाले आपत्ति चेतावनी संकेतों में शामिल हैं: सांस लेने में कठिनाई, निरंतर सीने में दर्द या दबाव, भ्रम, नीली होंठ या चेहरा, और जागने या जागे रहने की असमर्थता। यदि आपको इन लक्षणों का सामना करना पड़ता है या यदि आपके पास उच्चतर जोखिम के लिए आपको इंतजार नहीं करना चाहिए, तो निकटतम अस्पताल जाने का कोई संकोच न करें और तुरंत इमरजेंसी मेडिकल सेवाओं को कॉल करें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "यदि आपको लगता है कि आपको कोविड-19 हो सकता है या आपके पास गंभीर लक्षण हैं, तो तुरंत चिकित्सा सहायता की तलाश करना अत्यंत महत्वपूर्ण है। तुरंत चिकित्सा सहायता की आवश्यकता होने वाले आपत्ति चेतावनी संकेतों में शामिल हैं: सांस लेने में कठिनाई, निरंतर सीने में दर्द या दबाव, भ्रम, नीली होंठ या चेहरा, और जागने या जागे रहने की असमर्थता। यदि आपको इन लक्षणों का सामना करना पड़ता है या यदि आपके पास उच्चतर जोखिम के लिए आपको इंतजार नहीं करना चाहिए, तो निकटतम अस्पताल जाने का कोई संकोच न करें और तुरंत इमरजेंसी मेडिकल सेवाओं को कॉल करें।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "உங்களுக்கு கோவிட்-19 இருப்பதாக நீங்கள் சந்தேகித்தால் அல்லது கடுமையான அறிகுறிகளை அனுபவித்தால், உடனடியாக மருத்துவ உதவியை நாடுவது முக்கியம். உடனடி மருத்துவ கவனிப்பு தேவைப்படும் அவசர எச்சரிக்கை அறிகுறிகளில் சுவாசிப்பதில் சிரமம், தொடர்ந்து மார்பு வலி அல்லது அழுத்தம், குழப்பம், நீல நிற உதடுகள் அல்லது முகம் மற்றும் இயலாமை ஆகியவை அடங்கும். எழுந்திருங்கள் அல்லது விழித்திருக்கவும். இந்த அறிகுறிகளில் ஏதேனும் ஒன்றை நீங்கள் அனுபவித்தாலோ அல்லது உங்களுக்கு அதிக ஆபத்தில் உள்ள அடிப்படை சுகாதார நிலைமைகள் இருந்தாலோ, அருகில் உள்ள மருத்துவமனைக்குச் செல்லவோ அல்லது அவசர மருத்துவ சேவைகளுக்கு அழைக்கவோ தயங்காதீர்கள்."
+
+  utter_pandamic:
+    - condition:
+        - type: slot
+          name: langcode
+          value: en
+      text: "The term 'pandemic' refers to the geographical spread of COVID-19, it is not an indication of the number of people who have been infected by the virus."
+    - condition:
+        - type: slot
+          name: langcode
+          value: fi
+      text: "The term 'pandemic' refers to the geographical spread of COVID-19, it is not an indication of the number of people who have been infected by the virus."
+    - condition:
+        - type: slot
+          name: langcode
+          value: hi
+      text: "शब्द 'पैंडेमिक' का अर्थ कोविड-19 के भूगोलिक फैलाव को संदर्भित करता है, यह वायरस से प्रभावित हुए लोगों की संख्या का संकेत नहीं है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: mr
+      text: "शब्द 'पैंडेमिक' का अर्थ कोविड-19 के भूगोलिक फैलाव को संदर्भित करता है, यह वायरस से प्रभावित हुए लोगों की संख्या का संकेत नहीं है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ne
+      text: "शब्द 'पैंडेमिक' का अर्थ कोविड-19 के भूगोलिक फैलाव को संदर्भित करता है, यह वायरस से प्रभावित हुए लोगों की संख्या का संकेत नहीं है।"
+    - condition:
+        - type: slot
+          name: langcode
+          value: ta
+      text: "தொற்றுநோய்' என்ற சொல் COVID-19 இன் புவியியல் பரவலைக் குறிக்கிறது, இது வைரஸால் பாதிக்கப்பட்டவர்களின் எண்ணிக்கையைக் குறிக்கவில்லை."
+ 
+
+slots:
+  langcode:
+    type: categorical
+    values:
+      - en #for eng
+      - fi #for eng
+      - hi #for hindi
+      - ne #for hindi
+      - mr #for hindi
+      - ta #for tamil
+    influence_conversation: false
+    mappings: 
+    - type: custom
+      action: action_detect_language
+
+actions:
+  - action_detect_language
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+

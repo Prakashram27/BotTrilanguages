@@ -1,0 +1,206 @@
+version: "3.1"
+
+nlu:
+- intent: corona
+  examples: |
+    - corona
+    - SARS-CoV-2
+    - SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2
+    - What is coronavirus?
+    - novel severe acute respiratory syndrome coronavirus
+    - Omicron
+    - Can you explain what coronavirus is?
+    - I've been hearing about coronavirus. What exactly is it?
+    - What are coronaviruses, and how do they affect humans?
+    - Is coronavirus a serious illness?
+    - Are all coronaviruses the same, or do they vary in severity?
+    - How is COVID-19 related to the coronavirus?
+    - Is coronavirus the same as the flu?
+    - Can you tell me about the origin of the coronavirus?
+    - How did the coronavirus pandemic start?
+    - कोरोना
+    - गंभीर तीव्र श्वसन सिंड्रोम कोरोना वायरस 2
+    - कोरोनावायरस क्या है?
+    - उपन्यास गंभीर तीव्र श्वसन सिंड्रोम कोरोनावायरस
+    - ओमीक्रॉन
+    - क्या आप बता सकते हैं कि कोरोना वायरस क्या है?
+    - मैं कोरोना वायरस के बारे में सुन रहा हूं। वास्तव में यह क्या है?
+    - कोरोना वायरस क्या हैं और ये इंसानों को कैसे प्रभावित करते हैं?
+    - क्या कोरोना वायरस एक गंभीर बीमारी है?
+    - क्या सभी कोरोना वायरस एक जैसे हैं, या उनकी गंभीरता अलग-अलग है?
+    - कोविड-19 का कोरोना वायरस से क्या संबंध है?
+    - क्या कोरोना वायरस फ्लू जैसा ही है?
+    - क्या आप मुझे कोरोना वायरस की उत्पत्ति के बारे में बता सकते हैं?
+    - कोरोना वायरस महामारी की शुरुआत कैसे हुई?
+    - கொரோனா
+    - சார்ஸ்-கோவ்-2
+    - கடுமையான கடுமையான சுவாச நோய்க்குறி கொரோனா வைரஸ் 2
+    - கொரோனா வைரஸ் என்றால் என்ன?
+    - நாவல் கடுமையான கடுமையான சுவாச நோய்க்குறி கொரோனா வைரஸ்
+    - ஓமிக்ரான்
+    - கொரோனா வைரஸ் என்றால் என்ன என்று விளக்க முடியுமா?
+    - நான் கொரோனா வைரஸ் பற்றி கேள்விப்பட்டிருக்கிறேன். அது சரியாக என்ன?
+    - கொரோனா வைரஸ்கள் என்றால் என்ன, அவை மனிதர்களை எவ்வாறு பாதிக்கின்றன?
+    - கொரோனா வைரஸ் ஒரு தீவிர நோயா?
+    - அனைத்து கொரோனா வைரஸ்களும் ஒரே மாதிரியானவையா அல்லது அவை தீவிரத்தன்மையில் வேறுபடுகின்றனவா?
+    - கொரோனா வைரஸுடன் COVID-19 எவ்வாறு தொடர்புடையது?
+    - கொரோனா வைரஸும் காய்ச்சலும் ஒன்றா?
+    - கொரோனா வைரஸின் தோற்றம் பற்றி சொல்ல முடியுமா?
+    - கொரோனா வைரஸ் தொற்று எவ்வாறு தொடங்கியது?
+
+
+
+- intent: precautions
+  examples: |
+    - How can i safe from corona?
+    - What are the essential precautions to avoid contracting COVID-19?
+    - How can I minimize the risk of COVID-19 transmission in my daily life?
+    - What steps should I take to safeguard myself and those around me from COVID-19?
+    - Are there specific guidelines I should follow to protect myself and others from COVID-19?
+    - What measures can I adopt to create a safer environment during the pandemic?
+    - How important is hand hygiene in preventing the spread of COVID-19?
+    - What types of face masks are recommended for protection against COVID-19?
+    - Can you provide some tips on maintaining physical distance to prevent COVID-19 transmission?
+    - What should I do if I come into contact with someone who has COVID-19?
+    - Are there any additional precautions I should take if I belong to a high-risk group for severe illness?
+    - मैं कोरोना से कैसे सुरक्षित रह सकता हूं?
+    - कोविड-19 से बचने के लिए आवश्यक सावधानियां क्या हैं?
+    - मैं अपने दैनिक जीवन में COVID-19 संचरण के जोखिम को कैसे कम कर सकता हूँ?
+    - मुझे खुद को और अपने आस-पास के लोगों को COVID-19 से सुरक्षित रखने के लिए क्या कदम उठाने चाहिए?
+    - क्या खुद को और दूसरों को COVID-19 से बचाने के लिए मुझे कुछ विशिष्ट दिशानिर्देशों का पालन करना चाहिए?
+    - महामारी के दौरान सुरक्षित वातावरण बनाने के लिए मैं कौन से उपाय अपना सकता हूं?
+    - कोविड-19 के प्रसार को रोकने में हाथ की स्वच्छता कितनी महत्वपूर्ण है?
+    - कोविड-19 से सुरक्षा के लिए किस प्रकार के फेस मास्क की सिफारिश की जाती है?
+    - क्या आप COVID-19 संचरण को रोकने के लिए शारीरिक दूरी बनाए रखने के बारे में कुछ सुझाव दे सकते हैं?
+    - यदि मैं किसी ऐसे व्यक्ति के संपर्क में आऊं जिसे COVID-19 है तो मुझे क्या करना चाहिए?
+    - यदि मैं गंभीर बीमारी के उच्च जोखिम वाले समूह से संबंधित हूं तो क्या मुझे कोई अतिरिक्त सावधानी बरतनी चाहिए?
+    - கொரோனாவில் இருந்து நான் எப்படி பாதுகாப்பது?
+    - கோவிட்-19 தொற்றைத் தவிர்ப்பதற்கான அத்தியாவசிய முன்னெச்சரிக்கைகள் என்ன?
+    - எனது அன்றாட வாழ்வில் கோவிட்-19 பரவும் அபாயத்தை நான் எவ்வாறு குறைப்பது?
+    - என்னையும் என்னைச் சுற்றியுள்ளவர்களையும் COVID-19 இலிருந்து பாதுகாக்க நான் என்ன நடவடிக்கைகளை எடுக்க வேண்டும்?
+    - என்னையும் மற்றவர்களையும் COVID-19 இலிருந்து பாதுகாக்க நான் பின்பற்ற வேண்டிய குறிப்பிட்ட வழிகாட்டுதல்கள் உள்ளதா?
+    - தொற்றுநோய்களின் போது பாதுகாப்பான சூழலை உருவாக்க நான் என்ன நடவடிக்கைகளை எடுக்கலாம்?
+    - COVID-19 பரவுவதைத் தடுப்பதில் கை சுகாதாரம் எவ்வளவு முக்கியம்?
+    - கோவிட்-19க்கு எதிரான பாதுகாப்பிற்காக என்ன வகையான முகமூடிகள் பரிந்துரைக்கப்படுகின்றன?
+    - கோவிட்-19 பரவுவதைத் தடுக்க உடல் தூரத்தைப் பேணுவதற்கான சில உதவிக்குறிப்புகளை வழங்க முடியுமா?
+    - கோவிட்-19 நோயால் பாதிக்கப்பட்ட ஒருவருடன் நான் தொடர்பு கொண்டால் நான் என்ன செய்ய வேண்டும்?
+    - நான் கடுமையான நோய்க்கான அதிக ஆபத்துள்ள குழுவைச் சேர்ந்திருந்தால் நான் எடுக்க வேண்டிய கூடுதல் முன்னெச்சரிக்கைகள் ஏதேனும் உள்ளதா?
+
+- intent: spread
+  examples: |
+    - How does the coronavirus spread?
+    - Can I get infected by touching surfaces?
+    - Is the virus airborne?
+    - What are the modes of transmission of coronavirus?
+    - Can coronavirus spread through food?
+    - कोरोना वायरस कैसे फैलता है?
+    - क्या मैं सतहों को छूने से संक्रमित हो सकता हूँ?
+    - क्या वायरस हवा से फैलता है?
+    - कोरोना वायरस के संचरण के तरीके क्या हैं?
+    - क्या खाने से फैल सकता है कोरोना वायरस?
+    - கொரோனா வைரஸ் எவ்வாறு பரவுகிறது?
+    - மேற்பரப்பைத் தொடுவதன் மூலம் நான் பாதிக்கப்படலாமா?
+    - வைரஸ் காற்றில் பரவுமா?
+    - கொரோனா வைரஸ் பரவும் முறைகள் என்ன?
+
+
+- intent: symptoms
+  examples: |
+    - What are the symptoms of COVID-19?
+    - How do I know if I have coronavirus?
+    - Are there any early signs of infection?
+    - Can coronavirus be asymptomatic?
+    - What should I do if I experience symptoms?
+    - कोविड-19 के लक्षण क्या हैं?
+    - मुझे कैसे पता चलेगा कि मुझे कोरोना वायरस है?
+    - क्या संक्रमण के कोई शुरुआती लक्षण हैं?
+    - क्या कोरोना वायरस बिना लक्षण वाला हो सकता है?
+    - यदि मुझे लक्षण महसूस हों तो मुझे क्या करना चाहिए?
+    - கோவிட்-19 இன் அறிகுறிகள் என்ன?
+    - எனக்கு கொரோனா வைரஸ் இருந்தால் எனக்கு எப்படி தெரியும்?
+    - நோய்த்தொற்றின் ஆரம்ப அறிகுறிகள் ஏதேனும் உள்ளதா?
+    - கொரோனா வைரஸ் அறிகுறியற்றதாக இருக்க முடியுமா?
+    - அறிகுறிகள் ஏற்பட்டால் நான் என்ன செய்ய வேண்டும்?
+
+
+- intent: treatments
+  examples: |
+    - What treatments are available for coronavirus?
+    - Are there any specific medications for COVID-19?
+    - How is coronavirus treated?
+    - Can you tell me about the treatment options for COVID-19?
+    - Are there any treatments available for coronavirus?
+    - Is there a cure for COVID-19?
+    - What medications are used to treat the virus?
+    - How can I boost my immune system to fight the virus?
+    - What should I avoid doing if I have coronavirus?
+    - कोरोना वायरस के लिए क्या उपचार उपलब्ध हैं?
+    - क्या COVID-19 के लिए कोई विशिष्ट दवाएँ हैं?
+    - कोरोना वायरस का इलाज कैसे किया जाता है?
+    - क्या आप मुझे COVID-19 के उपचार के विकल्पों के बारे में बता सकते हैं?
+    - क्या कोरोना वायरस का कोई उपचार उपलब्ध है?
+    - क्या COVID-19 का कोई इलाज है?
+    - वायरस के इलाज के लिए कौन सी दवाओं का उपयोग किया जाता है?
+    - मैं वायरस से लड़ने के लिए अपनी प्रतिरक्षा प्रणाली को कैसे बढ़ावा दे सकता हूं?
+    - अगर मुझे कोरोना वायरस है तो मुझे क्या करने से बचना चाहिए?
+    - கொரோனா வைரஸுக்கு என்ன சிகிச்சைகள் உள்ளன?
+    - கோவிட்-19க்கு ஏதேனும் குறிப்பிட்ட மருந்துகள் உள்ளதா?
+    - கொரோனா வைரஸ் எவ்வாறு சிகிச்சையளிக்கப்படுகிறது?
+    - கோவிட்-19க்கான சிகிச்சை விருப்பங்களைப் பற்றி என்னிடம் கூற முடியுமா?
+    - கொரோனா வைரஸுக்கு ஏதேனும் சிகிச்சைகள் உள்ளனவா?
+    - கோவிட்-19க்கு மருந்து உண்டா?
+    - வைரஸ் சிகிச்சைக்கு என்ன மருந்துகள் பயன்படுத்தப்படுகின்றன?
+    - வைரஸை எதிர்த்துப் போராட எனது நோயெதிர்ப்பு சக்தியை எவ்வாறு அதிகரிக்க முடியும்?
+    - எனக்கு கொரோனா வைரஸ் இருந்தால் நான் என்ன செய்வதைத் தவிர்க்க வேண்டும்?
+
+- intent: government_reg
+  examples: |
+    - Do I need to register with the government if I have COVID-19 symptoms?
+    - Is there a process for government registration if I test positive for coronavirus?
+    - Should I report my positive COVID-19 test result to the local health authorities?
+    - What are the requirements for government registration in case of COVID-19?
+    - How do I inform the government about my COVID-19 status?
+    - यदि मुझमें COVID-19 लक्षण हैं तो क्या मुझे सरकार के साथ पंजीकरण कराने की आवश्यकता है?
+    - यदि मैं कोरोना वायरस से संक्रमित पाया जाता हूं तो क्या सरकारी पंजीकरण की कोई प्रक्रिया है?
+    - क्या मुझे अपने सकारात्मक COVID-19 परीक्षा परिणाम की सूचना स्थानीय स्वास्थ्य अधिकारियों को देनी चाहिए?
+    - कोविड-19 के मामले में सरकारी पंजीकरण के लिए क्या आवश्यकताएं हैं?
+    - मैं सरकार को अपनी COVID-19 स्थिति के बारे में कैसे सूचित करूं?
+    - எனக்கு கோவிட்-19 அறிகுறிகள் இருந்தால் நான் அரசாங்கத்தில் பதிவு செய்ய வேண்டுமா?
+    - நான் கொரோனா வைரஸுக்கு நேர்மறை சோதனை செய்தால், அரசாங்கப் பதிவுக்கான செயல்முறை உள்ளதா?
+    - எனது நேர்மறை கோவிட்-19 சோதனை முடிவை உள்ளூர் சுகாதார அதிகாரிகளிடம் தெரிவிக்க வேண்டுமா?
+    - கோவிட்-19 வழக்கில் அரசு பதிவு செய்வதற்கான தேவைகள் என்ன?
+    - எனது கோவிட்-19 நிலையைப் பற்றி அரசாங்கத்திற்கு எவ்வாறு தெரிவிப்பது?
+
+
+- intent: hospital_visit
+  examples: |
+    - When should I consider going to the hospital for COVID-19?
+    - What are the signs that indicate I need to seek medical attention for coronavirus symptoms?
+    - At what point should I visit the hospital if I suspect I have contracted the virus?
+    - How do I know if my symptoms are severe enough to require hospitalization?
+    - What should I do if my COVID-19 symptoms worsen?
+    - Feel free to use these questions as examples or expand
+    - मुझे COVID-19 के लिए अस्पताल जाने पर कब विचार करना चाहिए?
+    - वे कौन से संकेत हैं जो दर्शाते हैं कि मुझे कोरोनोवायरस लक्षणों के लिए चिकित्सा सहायता लेने की आवश्यकता है?
+    - अगर मुझे संदेह है कि मैं वायरस से संक्रमित हो गया हूं तो मुझे किस समय अस्पताल जाना चाहिए?
+    - मुझे कैसे पता चलेगा कि मेरे लक्षण इतने गंभीर हैं कि अस्पताल में भर्ती होने की आवश्यकता है?
+    - यदि मेरे COVID-19 लक्षण बिगड़ जाएं तो मुझे क्या करना चाहिए?
+    - बेझिझक इन प्रश्नों को उदाहरण के रूप में उपयोग करें या विस्तार करें
+    - கோவிட்-19க்காக நான் எப்போது மருத்துவமனைக்குச் செல்ல வேண்டும்?
+    - கொரோனா வைரஸ் அறிகுறிகளுக்கு நான் மருத்துவ உதவியை நாட வேண்டும் என்பதைக் குறிக்கும் அறிகுறிகள் யாவை?
+    - நான் வைரஸால் பாதிக்கப்பட்டிருப்பதாக சந்தேகித்தால் நான் எந்த நேரத்தில் மருத்துவமனைக்குச் செல்ல வேண்டும்?
+    - மருத்துவமனையில் அனுமதிக்கும் அளவுக்கு எனது அறிகுறிகள் கடுமையாக இருந்தால் எனக்கு எப்படித் தெரியும்?
+    - எனது கோவிட்-19 அறிகுறிகள் மோசமடைந்தால் நான் என்ன செய்ய வேண்டும்?
+    - இந்தக் கேள்விகளை எடுத்துக்காட்டுகளாகப் பயன்படுத்தவும் அல்லது விரிவாக்கவும்
+
+- intent: pandamic
+  examples: |
+    - COVID-19 has been described as a “pandemic”. What does that mean?
+    - What is pandemic disease.
+    - how many peoples will affect for pandamic in general?
+    - कोविड-19 को "महामारी" के रूप में वर्णित किया गया है। इसका क्या मतलब है?
+    - महामारी रोग क्या है?
+    - आम तौर पर महामारी से कितने लोग प्रभावित होंगे?
+    - COVID-19 ஒரு "தொற்றுநோய்" என்று விவரிக்கப்பட்டுள்ளது. அதற்கு என்ன பொருள்?
+    - தொற்று நோய் என்றால் என்ன.
+    - பொதுவாக எத்தனை பேர் தொற்றுநோயால் பாதிக்கப்படுவார்கள்?
