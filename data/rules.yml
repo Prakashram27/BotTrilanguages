@@ -19,7 +19,7 @@ rules:
   - intent: spread
   - action: action_detect_language 
   - action: utter_spread
-
+#droidcity
 - rule: corona_symptoms
   steps:
   - intent: symptoms
